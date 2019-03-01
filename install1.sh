@@ -66,7 +66,7 @@ echo "export RAILS_ENV=production" >> ~/.bashrc
 source ~/.bashrc
 mkdir -p ~/peatio
 
-git clone https://github.com/scatterp/peatio.git ~/peatio/current
+git clone https://github.com/rubykube/peatio -b 1-9-stable ~/peatio/current
 
 cd ~/peatio/current/
 pwd
